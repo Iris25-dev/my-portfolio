@@ -274,7 +274,7 @@ function ProjectApp() {
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://github.com/Nahuel61920/Weather-App-React" target="_blank">https://github.com/Nahuel61920/Weather-App-React</a>
+                                <span>Link:</span> <a href="https://github.com/Roman61920/Weather-App-React" target="_blank">https://github.com/Roman61920/Weather-App-React</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>

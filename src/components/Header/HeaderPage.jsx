@@ -33,7 +33,7 @@ const HeaderPage = () => {
             <div id="menu-btn" className="fas fa-bars" onClick={menuDesplegable}></div>
 
             <NavLink className="logo" to="/" >
-                <p>=(<span>NAHUEL61920</span>)=></p>
+                <p>Roman Senyk</p>
             </NavLink>
 
             <nav className="navbar">
@@ -61,10 +61,10 @@ const HeaderPage = () => {
                         defaultMessage='Projects'
                     />
                 </NavLink>
-                <div id="buttons">
+                {/* <div id="buttons">
                     <img onClick={() => idioma.selectLanguage('en-US')} src="https://nahuel61920.github.io/Portafoliovirtual/img/en.png" alt="EEUU" />
                     <img onClick={() => idioma.selectLanguage('es-ES')} src="https://nahuel61920.github.io/Portafoliovirtual/img/es.png" alt="España" />
-                </div>
+                </div> */}
             </nav>
             <div className="switch" id="switch">
                 <DarkMode />

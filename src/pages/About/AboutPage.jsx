@@ -12,7 +12,7 @@ import cv from '../../cv/cv.pdf';
 import { FormattedMessage } from 'react-intl';
 
 /* Img */
-import imgabout from '../../img/home.jpg';
+// import imgabout from '../../img/home.jpg';
 
 const About = () => {
 
@@ -40,7 +40,7 @@ const About = () => {
         <section className="sobre-mi-seccion" id="sobre-mi">
           <div className="sobre-mi-container">
             <div className="sobre-mi-img-container">
-              <img src={imgabout} alt="" className="sobre-mi-img" />
+              {/* <img src={imgabout} alt="" className="sobre-mi-img" /> */}
               
               <a href={cv} target="_blank" rel="noopener noreferrer" download="cv.pdf" className="btn-codigo cv buttonDownload">
                   <FormattedMessage
@@ -53,7 +53,7 @@ const About = () => {
               <p>
                 <FormattedMessage
                   id='about-info-1'
-                  defaultMessage="Hi, I'm Esteban Nahuel Carrizo, a student at the Technological University of Tucumán; I consider myself a person passionate about programming and web development since in 2020 I had the opportunity to get to know this world of the front-end and I was able to create my first web page only using HTML and CSS from there, I felt a great passion for web development, since you can do amazing things knowing how to use HTML, CSS, JavaScript and to this day I still feel that same passion when I create a web page."
+                  defaultMessage="Hi, I'm Roman Senyk, a student at the Technological University of Tucumán; I consider myself a person passionate about programming and web development since in 2020 I had the opportunity to get to know this world of the front-end and I was able to create my first web page only using HTML and CSS from there, I felt a great passion for web development, since you can do amazing things knowing how to use HTML, CSS, JavaScript and to this day I still feel that same passion when I create a web page."
                 />
               </p>
 
