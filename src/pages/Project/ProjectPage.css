@@ -1,6 +1,5 @@
 /********************** Proyectos **********************/
 
-
 #proyectos .proyect-site {
   overflow-x: hidden !important;
 }
@@ -71,7 +70,7 @@
   align-items: center;
   width: 100%;
   height: 100%;
-  margin: 1rem 0; 
+  margin: 1rem 0;
 }
 
 /********************** Proyectos seccion **********************/
@@ -201,10 +200,9 @@
   position: relative;
   border-radius: 5px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  padding: 20px;
+  padding: 30px;
   margin: 5rem 2rem 0 0;
 }
-
 
 .boton-cerrar {
   position: absolute;
@@ -226,8 +224,8 @@
 }
 
 .eins-modal-preview {
-  max-width: 400px;
-  width: 90%;
+  max-width: 500px;
+  width: 100%;
   margin: 0 auto;
 }
 .eins-modal-preview img {
@@ -241,12 +239,12 @@
   gap: 2rem;
 }
 .eins-modal-text p {
-  font-size: 1.7rem;
+  font-size: 2.2rem;
 }
 
 .eins-modal-text-2 {
-  padding: 5rem 0 2rem;
-  font-size: 1.5rem!important;
+  padding: 2rem 0 2rem;
+  font-size: 2.6rem !important;
 }
 
 .eins-modal-text-2 a {
@@ -254,15 +252,14 @@
 }
 
 .eins-modal-tec img {
-  width: 3rem;
-  height: 3rem;
+  width: 7rem;
+  height: 7rem;
   margin: 1rem 2rem 1rem 0;
 }
 
-
 .eins-modal-tec-2 img {
-  width: 2.8rem;
-  height: 3rem;
+  width: 3.5rem;
+  height: 3.5rem;
   margin: 1rem 1.7rem 1rem 0;
 }
 
@@ -277,31 +274,78 @@
 
 .eins-modal-text-2,
 .eins-modal-text-3 {
-  font-size: 1.7rem;
+  font-size: 3rem;
   font-weight: bold;
   color: var(--black);
 }
 
 /********************** Media Q **********************/
 
-@media (max-width: 760px) {
+@media (max-width: 1060px) {
+  .projects__grid {
+    grid-template-areas:
+      "img-1 img-2"
+      "img-3 img-4"
+      "img-5 img-6"
+      "img-7 img-8"
+      "img-9 img-10"
+      "img-11 img-12"
+      "img-13 img-14"
+      "img-15 img-16";
+  }
+
+  .pw-content {
+    display: flow;
+  }
+
   .eins-modal-preview {
-    max-width: 200px;
-    width: 70%;
+    max-width: 500px;
+    width: 60%;
+  }
+}
+
+@media (max-width: 760px) {
+  .projects__grid {
+    grid-template-areas:
+      "img-1 img-1"
+      "img-2 img-2"
+      "img-3 img-3"
+      "img-4 img-4"
+      "img-5 img-5"
+      "img-6 img-6"
+      "img-7 img-7"
+      "img-8 img-8"
+      "img-9 img-9"
+      "img-10 img-10"
+      "img-11 img-11"
+      "img-12 img-12"
+      "img-13 img-13"
+      "img-14 img-14"
+      "img-15 img-15"
+      "img-16 img-16";
+  }
+
+  .pw-content {
+    display: flow;
+  }
+
+  .eins-modal-preview {
+    max-width: 600px;
+    width: 80%;
   }
 
   .eins-modal-text p {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .eins-modal-text-2 {
     padding: 2rem 0;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .eins-modal-text-2,
   .eins-modal-text-3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 
@@ -310,13 +354,25 @@
     grid-template-areas:
       "img-1 img-1"
       "img-2 img-2"
-      "img-3 img-4"
-      "img-5 img-6"
-      "img-7 img-8"
-      "img-9 img-10"
-      "img-12 img-11"
-      "img-13 img-14"
-      "img-15 img-16"
+      "img-3 img-3"
+      "img-4 img-4"
+      "img-5 img-5"
+      "img-6 img-6"
+      "img-7 img-7"
+      "img-8 img-8"
+      "img-9 img-9"
+      "img-10 img-10"
+      "img-11 img-11"
+      "img-12 img-12"
+      "img-13 img-13"
+      "img-14 img-14"
+      "img-15 img-15"
+      "img-16 img-16";
+  }
+
+  .eins-modal-preview {
+    max-width: 600px;
+    width: 100%;
   }
 
   .projects__item img {
@@ -328,7 +384,9 @@
   .contenedor-modal {
     padding: 2rem;
   }
+
   .eins-modal-preview {
-    width: 60%;
+    max-width: 600px;
+    width: 100%;
   }
 }

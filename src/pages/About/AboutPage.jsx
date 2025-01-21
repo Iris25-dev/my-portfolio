@@ -80,7 +80,10 @@ const About = () => {
                 download="cv.pdf"
                 className="btn-codigo cv buttonDownload"
               >
-                <FormattedMessage id="btn-cv" defaultMessage="Download CV" />
+                <FormattedMessage
+                  id="btn-cv"
+                  defaultMessage="Download Resume"
+                />
               </a>
             </div>
           </div>

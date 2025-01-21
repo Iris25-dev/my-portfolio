@@ -15,21 +15,21 @@ const About = () => (
 
     <div className="row container">
       <div className="columns" data-aos="fade-right" data-aos-delay="300">
-        <h3>
+        <h2>
           <FormattedMessage id="im" defaultMessage="who I am" />
-        </h3>
-        <h4>
+        </h2>
+        <h3>
           <FormattedMessage
             id="description"
-            defaultMessage="My name is Roman Senyk and I am a Front-End Developer."
+            defaultMessage="My name is Roman Senyk and I am a Senior Front-End Developer."
           />
-        </h4>
-        <p>
+        </h3>
+        <h4>
           <FormattedMessage
             id="my-description"
             defaultMessage="I’m a passionate and experienced Front-End Developer with 5+ years of expertise in building modern, user-friendly, and high-performing web applications. I specialize in React, Next.js, and Vue.js, and have a proven track record of delivering scalable, responsive, and maintainable code for both startups and established businesses."
           />
-        </p>
+        </h4>
         <ul>
           <li>
             <p>
@@ -67,7 +67,7 @@ const About = () => (
             download="cv.pdf"
             className="btn-codigo buttonDownload"
           >
-            <FormattedMessage id="btn-cv" defaultMessage="Download CV" />
+            <FormattedMessage id="btn-cv" defaultMessage="Download Resume" />
           </a>
           <div className="mas-info-btn">
             <Link to="/about">
