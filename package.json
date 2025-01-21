@@ -1,6 +1,6 @@
 {
-  "name": "portafolio-roman",
-  "homepage": "https://Iris25-dev.github.io/portafolio-Roman/",
+  "name": "my-portfolio",
+  "homepage": "https://Iris25-dev.github.io/my-portfolio/",
   "version": "1.5.0",
   "private": true,
   "dependencies": {
@@ -26,7 +26,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build main -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
