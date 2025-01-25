@@ -44,25 +44,23 @@ const About = () => {
               <p>
                 <FormattedMessage
                   id="about-info-1"
-                  defaultMessage="Hi, I'm Roman Senyk, a student at the Technological University of Tucumán; I consider myself a person passionate about programming and web development since in 2020 I had the opportunity to get to know this world of the front-end and I was able to create my first web page only using HTML and CSS from there, I felt a great passion for web development, since you can do amazing things knowing how to use HTML, CSS, JavaScript and to this day I still feel that same passion when I create a web page."
+                  defaultMessage="Hi, I'm Roman Senyk, I’m a passionate and experienced Front-End Developer with 5+ years of expertise in building modern, user-friendly, and high-performing web applications. I specialize in React, Next.js, and Vue.js, and have a proven track record of delivering scalable, responsive, and maintainable code for both startups and established businesses."
                 />
               </p>
 
-              <div className="hide parrafo-active">
-                <p>
-                  <FormattedMessage
-                    id="about-info-2"
-                    defaultMessage="I consider myself a self-taught person since I like to be constantly learning day by day, both new technologies and new development methods that help me polish and raise my level of learning."
-                  />
-                </p>
+              <p>
+                <FormattedMessage
+                  id="about-info-2"
+                  defaultMessage="I strive to create engaging user experiences with a focus on performance, accessibility, and modern web practices. I am also adept at collaborating with UX/UI designers to bring concepts to life, ensuring that every design decision is implemented beautifully and efficiently."
+                />
+              </p>
 
-                <p>
-                  <FormattedMessage
-                    id="about-info-3"
-                    defaultMessage="I have experience working as a freelance web designer and developer, which gave me the opportunity to work on many interesting projects, adapting to the client's needs and budget, which allowed me to improve my skills and knowledge; Additionally, I have also had the opportunity to be part of some online and face-to-face courses that helped me enrich my skills and learn a little more about this beautiful world of web development."
-                  />
-                </p>
-              </div>
+              <p>
+                <FormattedMessage
+                  id="about-info-3"
+                  defaultMessage="I have experience working as a freelance web designer and developer, which gave me the opportunity to work on many interesting projects, adapting to the client's needs and budget, which allowed me to improve my skills and knowledge; Additionally, I have also had the opportunity to be part of some online and face-to-face courses that helped me enrich my skills and learn a little more about this beautiful world of web development."
+                />
+              </p>
 
               <div className="btn-info">
                 <div

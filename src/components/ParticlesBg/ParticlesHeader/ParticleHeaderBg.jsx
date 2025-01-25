@@ -196,6 +196,11 @@ export default function ParticleHeaderBg() {
                   height: 20,
                 },
                 {
+                  src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/woocommerce/woocommerce-original.svg",
+                  width: 20,
+                  height: 20,
+                },
+                {
                   src: "https://raw.githubusercontent.com/devicons/devicon/master/icons/reactrouter/reactrouter-original.svg",
                   width: 20,
                   height: 20,

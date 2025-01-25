@@ -114,15 +114,7 @@ const About = () => (
               className="icons-skils"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
             />
-            <h5>Typescript</h5>
-          </div>
-          <div>
-            <img
-              alt="Bootstrap"
-              className="icons-skils"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
-            />
-            <h5>Bootstrap</h5>
+            <h5>TypeScript</h5>
           </div>
           <div>
             <img
@@ -138,7 +130,7 @@ const About = () => (
               className="icons-skils"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
             />
-            <h5>Next</h5>
+            <h5>Next.js</h5>
           </div>
           <div>
             <img
@@ -146,7 +138,15 @@ const About = () => (
               className="icons-skils"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
             />
-            <h5>Vue</h5>
+            <h5>Vue.js</h5>
+          </div>
+          <div>
+            <img
+              alt="Nuxt"
+              className="icons-skils"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg"
+            />
+            <h5>Nuxt.js</h5>
           </div>
           <div>
             <img
@@ -166,11 +166,19 @@ const About = () => (
           </div>
           <div>
             <img
-              alt="WordPress"
+              alt="Bootstrap"
               className="icons-skils"
-              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-original.svg"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
             />
-            <h5>WordPress</h5>
+            <h5>Bootstrap</h5>
+          </div>
+          <div>
+            <img
+              alt="Material UI"
+              className="icons-skils"
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg"
+            />
+            <h5>Material UI</h5>
           </div>
           <div>
             <img
@@ -198,6 +206,22 @@ const About = () => (
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
             />
             <h5>Express</h5>
+          </div>
+          <div>
+            <img
+              alt="WordPress"
+              className="icons-skils"
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-original.svg"
+            />
+            <h5>WordPress</h5>
+          </div>
+          <div>
+            <img
+              alt="Woocommerce"
+              className="icons-skils"
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/woocommerce/woocommerce-original.svg"
+            />
+            <h5>Woocommerce</h5>
           </div>
           <div>
             <img
@@ -254,6 +278,15 @@ const About = () => (
               title="git"
             />
             <h5>Git</h5>
+          </div>
+          <div>
+            <img
+              alt="jira"
+              className="icons-skils"
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jira/jira-original.svg"
+              title="jira"
+            />
+            <h5>Jira</h5>
           </div>
         </div>
       </div>
